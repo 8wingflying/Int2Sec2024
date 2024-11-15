@@ -17,3 +17,4 @@
   - Hash 的攻擊
 
 ## 延伸閱讀
+- [深入淺出密碼學 Real-World Cryptography| 戴維·王（David Wong）](https://www.tenlong.com.tw/products/9787115600349?list_name=srh)
