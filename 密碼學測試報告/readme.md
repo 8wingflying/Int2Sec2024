@@ -1,6 +1,8 @@
 # 密碼學測試
 - 密碼學
 - 古典密碼學
+  - 凱撒密碼
+  - 維吉尼亞密碼 
 - 現代密碼學
   - 對稱式密碼
   - 非對稱式密碼
@@ -15,6 +17,22 @@
 - 現代密碼學破密分析
   - 非對稱式密碼的攻擊
   - Hash 的攻擊
-
+## 密碼學
+- 加密前的原始資訊稱為明文（Plaintext）
+- 加密後的資訊稱為密文（Ciphertext）
+- 把明文轉換為密文的過程稱為加密（Encrypt）
+- 把密文恢復成明文的過程稱為解密（Decrypt）。
 ## 延伸閱讀
+- [加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究 密碼了不起 |劉巍然 著](https://www.tenlong.com.tw/products/9786267195239?list_name=srh)
 - [深入淺出密碼學 Real-World Cryptography| 戴維·王（David Wong）](https://www.tenlong.com.tw/products/9787115600349?list_name=srh)
+- [圖解密碼技術 第3版 |[日]結城浩](https://www.tenlong.com.tw/products/9787115424914?list_name=sp)
+- [嚴肅的密碼學：實用現代加密術 | Jean-Philippe Aumasson ](https://www.tenlong.com.tw/products/9787121410864?list_name=srh)
+  - Serious Cryptography: A Practical Introduction to Modern Encryption
+- [寫給工程師的密碼學 |Robert Schmied](https://www.tenlong.com.tw/products/9787111716631?list_name=srh)
+  - Cryptology for Engineers: An Application-Oriented Mathematical Introduction
+- 密碼實作
+  - [Python 密碼學編程, 2/e |Al Sweigart](https://www.tenlong.com.tw/products/9787115529992?list_name=srh) 
+  - [應用密碼學原理、分析與Python實現 |劉卓 趙勇焜 黃領才](https://www.tenlong.com.tw/products/9787115635716?list_name=srh)
+  - [應用密碼學：協定、演算法與C源程式（原書第2版·典藏版）| Bruce Schneier](https://www.tenlong.com.tw/products/9787111748878?list_name=srh)
+    - Applied Cryptography: Protocols, Algorithms and Source Code in C 20th Anniversary Edition
+  - [高手才用 C語言：Windows C/C++ 加密解密實戰|朱晨冰、李建英](https://www.tenlong.com.tw/products/9789860776348)
