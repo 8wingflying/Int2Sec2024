@@ -1,4 +1,5 @@
-# CTF_Crypto1
+# CTF_Crypto101
+- 線上參考解答 https://github.com/MyFirstSecurity2020/20230301
 ## 第一題:CRY1  10
 ```
 底下是加密過的密文(ciphertext) :
