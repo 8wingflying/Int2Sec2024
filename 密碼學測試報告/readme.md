@@ -26,11 +26,7 @@
 - 現代密碼學破密分析
   - 非對稱式密碼的攻擊
   - Hash 的攻擊
-## 密碼學
-- 加密前的原始資訊稱為明文（Plaintext）
-- 加密後的資訊稱為密文（Ciphertext）
-- 把明文轉換為密文的過程稱為加密（Encrypt）
-- 把密文恢復成明文的過程稱為解密（Decrypt）。
+
 ## 延伸閱讀
 - [加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究 密碼了不起 |劉巍然 著](https://www.tenlong.com.tw/products/9786267195239?list_name=srh)
 - [深入淺出密碼學 Real-World Cryptography| 戴維·王（David Wong）](https://www.tenlong.com.tw/products/9787115600349?list_name=srh)
