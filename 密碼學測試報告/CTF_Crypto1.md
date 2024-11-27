@@ -77,85 +77,45 @@ You may want to look at what the relative frequencies of letters in english text
 底下網站有用:
 http://quipqiup.com/
 ```
-- encrypted.txt
+- [encrypted.txt](./encrypted.txt)
+
+## 第七題:CRY7_Rail Fence Cipher 70
 ```
-tep yhteszxdytxsj rsbp xo yuesgpjpuuszgb
+你會Rail Fence Cipher 籬笆式位移密碼嗎?
 
-x ryj oesu fsh tep uszgb
-oexjxjk oexccpzxjk ongpjbxb
-tpgg cp nzxjrpoo jsu uepj bxb
-fsh gyot gpt fshz epyzt bprxbp
+跟著Wiki學Rail fence cipher https://en.wikipedia.org/wiki/Rail_fence_cipher
 
-x ryj snpj fshz pfpo
-tyap fsh usjbpz qf usjbpz
-slpz oxbpuyfo yjb hjbpz
-sj y cykxr ryznpt zxbp
+解底下題目吧!
+密文如下: Ta _7N6DE7hlg:W3D_H3C31N__BD4ef sHR053F38N43D47 i33___NC
 
-y uesgp jpu uszgb
-y jpu iyjtyotxr nsxjt si lxpu
-js sjp ts tpgg ho js
-sz uepzp ts ks
-sz oyf upzp sjgf bzpycxjk
+使用四層籬笆(rail fence with 4 rails)
 
-y uesgp jpu uszgb
-y byddgxjk ngyrp x jplpz ajpu
-qht jsu izsc uyf hn epzp
-xto rzfotyg rgpyz
-teyt jsu xc xj y uesgp jpu uszgb uxte fsh
+答案格式:BreakAllCTF{flag}
 
-hjqpgxplyqgp oxketo
-xjbporzxqyqgp ippgxjk
-osyzxjk thcqgxjk izppueppgxjk
-tezshke yj pjbgpoo bxycsjb oaf
-
-y uesgp jpu uszgb
-bsjt fsh byzp rgsop fshz pfpo
-y ehjbzpb teshoyjb texjko ts opp
-esgb fshz qzpyte  xt kpto qpttpz
-xc gxap y oesstxjk otyz
-xlp rscp os iyz
-x ryjt ks qyra ts uepzp x hopb ts qp
-
-y uesgp jpu uszgb
-plpzf thzj y ohznzxop
-uxte jpu eszxdsjo ts nhzohp
-plpzf cscpjt kpto qpttpz
-xgg reyop tepc yjfuepzp
-tepzpo txcp ts onyzp
-gpt cp oeyzp texo uesgp jpu uszgb uxte fsh
-
-y uesgp jpu uszgb
-
-y uesgp jpu uszgb
-y jpu iyjtyotxr nsxjt si lxpu
-js sjp ts tpgg ho js
-sz uepzp ts ks
-sz oyf upzp sjgf bzpycxjk
-y uesgp jpu uszgb
-plpzf thzj y ohznzxop
-uxte jpu eszxdsjo ts nhzohp
-plpzf cscpjt kpto qpttpz
-xgg reyop tepc yjfuepzp
-tepzpo txcp ts onyzp
-xgg reyop tepc yjfuepzp
-tepzpo txcp ts onyzp
-gpt cp oeyzp texo uesgp jpu uszgb uxte fsh
-
-y uesgp jpu uszgb
-y uesgp jpu uszgb
-teyto uepzp upgg qp
-teyto uepzp upgg qp
-y tezxggxjk reyop
-y usjbzsho ngyrp
-isz fsh yjb cp
+https://www.dcode.fr/rail-fence-cipher
 ```
-## 第一題
+
+
+## 第八題:CRY8_ROT47 50
+```
+你知道下列文字如何解密嗎？
+
+qC62<p{{r%uL(92E0`D0#_%cfnm]kN
+
+上網去GOOGLE ROT47
+
+主動學習:請說明其原理
+```
+- [About ROT47](https://dencode.com/en/cipher/rot47)
+- https://www.dcode.fr/rot-47-cipher
+- BreakALLCTF{What_1s_R0T47?>.<}
+
+## 第九題
 ```
 
 ```
 
-
-## 第一題
+## 第十題
 ```
 
 ```
