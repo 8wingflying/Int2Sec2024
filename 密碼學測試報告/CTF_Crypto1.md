@@ -77,6 +77,7 @@ You may want to look at what the relative frequencies of letters in english text
 底下網站有用:
 http://quipqiup.com/
 ```
+- encrypted.txt
 ```
 tep yhteszxdytxsj rsbp xo yuesgpjpuuszgb
 
