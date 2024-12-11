@@ -13,21 +13,30 @@ Windows:strings
   - [NET1](NET１.pcap)
 - 使用windows/sysinternals的strings工具分析檔案
   - [sysinternals的strings下載點](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)
+
 ### NET2  30
 ```
+封包分析第二章~~
 某神秘機構攔截到神祕的對話
 你能知道他們再說甚麼嗎?
 
 Someone intercepted a chat between illustris and codelec
 
 題目來源:BITSCTF 2017 : woodstock-1-10
+
+恩師註解:善用工具
+使用工具解析側錄的封包
+Linux: file strings + grep
+Windows: strings + findstr
 ```
 - 下載分析檔案
   - [NET2.pcap](NET2.pcap)
+
 ### NET3_Wireshark封包分析  80
 ```
+諧音哽~~
 The shark won't bite you. Don't worry, it's wired!
-鯊魚不會咬你.別擔心 .這是有線網路的(鯊魚)
+鯊魚不會咬你. 別擔心 .這是有線網路的(鯊魚)
 
 答案格式:IW{xxxxxxxxxxxxxxx}
 
@@ -36,6 +45,7 @@ The shark won't bite you. Don't worry, it's wired!
 - 下載分析檔案
   - []()
   - []() 
+
 ### NET4_Special Agent User(MUST)  70
 ```
 We can get into the Administrator's computer with a browser exploit.
