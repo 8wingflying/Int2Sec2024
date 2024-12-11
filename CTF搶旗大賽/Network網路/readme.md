@@ -12,3 +12,4 @@
   - [實戰封包分析｜使用 Wireshark, 3/e (支援IPv6與Wifi)](https://www.tenlong.com.tw/products/9789864766574?list_name=srh) 
 # Packet analysis and network forensics
 - [Packet analysis for network forensics: A comprehensive survey|Leslie F. Sikos(2020)](https://www.sciencedirect.com/science/article/pii/S1742287619302002)
+- [Enhanced neural network-based attack investigation framework for network forensics: Identification, detection, and analysis of the attack(2023)](https://www.sciencedirect.com/science/article/pii/S0167404823004315)
