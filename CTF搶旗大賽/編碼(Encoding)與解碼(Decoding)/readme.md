@@ -75,27 +75,34 @@ http://annion.kingbig.idv.tw/tool/column/web/unicode-ascii-ansi.html
 # Encoding102
 ### Internetwache CTF 2016: The hidden message  50
 ```
+我的老友真的記不住密碼。 所以他使用了某種代碼混淆（obfuscation）技術。 
+你能了解如何恢復底下檔案的明文嗎？
 
+附件：misc50.zip
 ```
-
+```
 My friend really can’t remember passwords. 
 So he uses some kind of obfuscation(代碼混淆).
 Can you restore the plaintext?
 
 Attachment: misc50.zip
-
+```
 [misc50.zip](misc50.zip)
 ### alexctf-2017: CR1: Ultracoded  50
 ```
+阿貓不太理解加密和編碼有何區別，
+因此，他沒有使用加密一些機密資訊傳給他的朋友，而是使用編碼！
 
+重要提示：阿貓的編碼不會輕易地使用任何特殊字元
 ```
-
+```
 Fady didn't understand well the difference between encryption and encoding, 
 so instead of encrypting some secret message to pass to his friend, he encoded it!
 
 Hint: Fady's encoding doens't handly any special character
-
+```
 [zero_one.txt](zero_one.txt)
+
 ### SECCON CTF 2014: Easy Cipher  100
 ```
 多元編碼方案
