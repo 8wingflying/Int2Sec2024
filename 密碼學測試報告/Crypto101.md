@@ -1,5 +1,5 @@
 # Crypto101
-- CRY110
+### CRY110
 ```
 底下是加密過的密文(ciphertext) :
 
@@ -19,7 +19,7 @@ https://planetcalc.com/1434/
 http://md5decrypt.net/en/Caesar/
 https://www.xarg.org/tools/caesar-cipher/
 ```
-- **CRY2_凱撒密碼part2  10**
+### CRY2_凱撒密碼part2  10
 ```
 Pxevhfx mh tgzlmkhfvmy. Px ahix rhn xgchr hnk vmy. tvmy{utvd_mh_max_ynmnkx}.
 
@@ -29,13 +29,13 @@ https://planetcalc.com/1434/
 http://md5decrypt.net/en/Caesar/
 https://www.xarg.org/tools/caesar-cipher/
 ```
-- **CRY3_ROT13  30**
+### CRY3_ROT13  30
 ```
 ROT13的奧秘
 
 OernxNYYPGS{kg_gvzr_V'yy_gel_2_ebha_ZNMldSDw}
 ```
-- **CRY4_ SCYTCRYPTO 密碼棒破密  50**
+### CRY4_ SCYTCRYPTO 密碼棒破密  50
 ```
 Decrypt this strange word: ERTKSOOTCMCHYRAFYLIPL
 
@@ -43,7 +43,7 @@ Decrypt this strange word: ERTKSOOTCMCHYRAFYLIPL
 
 解答也就會有相關文字
 ```
-- **CRY6_頻率分析法  50**
+### CRY6_頻率分析法  50
 ```
 There's an authorization code for some Thyrin Labs information here,
 along with someone's favorite song.
@@ -130,7 +130,7 @@ y usjbzsho ngyrp
 isz fsh yjb cp
 ```
 
-- CRY8_ROT47  50
+### CRY8_ROT47  
 ```
 你知道下列文字如何解密嗎？
 
@@ -140,13 +140,15 @@ qC62<p{{r%uL(92E0`D0#_%cfnm]kN
 
 主動學習:請說明其原理
 ```
-- **CRY7_Rail Fence Cipher  70**
+### CRY7_Rail Fence Cipher  70
 ```
 你會Rail Fence Cipher 籬笆式位移密碼嗎?
 
-跟著Wiki學Rail fence cipher https://en.wikipedia.org/wiki/Rail_fence_cipher
+跟著Wiki學Rail fence cipher
+https://en.wikipedia.org/wiki/Rail_fence_cipher
 
-解底下題目吧! 密文如下: Ta _7N6DE7hlg:W3D_H3C31N__BD4ef sHR053F38N43D47 i33___NC
+解底下題目吧!
+密文如下: Ta _7N6DE7hlg:W3D_H3C31N__BD4ef sHR053F38N43D47 i33___NC
 
 使用四層籬笆(rail fence with 4 rails)
 
@@ -154,7 +156,7 @@ qC62<p{{r%uL(92E0`D0#_%cfnm]kN
 
 https://www.dcode.fr/rail-fence-cipher
 ```
-- **CRY5_Vigenère cipher  100**
+### CRY5_Vigenère cipher  100
 ```
 Crack the cipher: vhixoieemksktorywzvhxzijqni
 
