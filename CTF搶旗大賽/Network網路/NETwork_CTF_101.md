@@ -15,12 +15,15 @@ Windows:strings
   - [sysinternals的strings下載點](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)
 ### NET2  30
 ```
+某神秘機構攔截到神祕的對話
+你能知道他們再說甚麼嗎?
+
 Someone intercepted a chat between illustris and codelec
 
-BITSCTF 2017 : woodstock-1-10
+題目來源:BITSCTF 2017 : woodstock-1-10
 ```
 - 下載分析檔案
-  - []()
+  - [NET2.pcap](NET2.pcap)
 ### NET3_Wireshark封包分析  80
 ```
 The shark won't bite you. Don't worry, it's wired!
