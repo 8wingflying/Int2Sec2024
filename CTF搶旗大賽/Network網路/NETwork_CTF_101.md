@@ -43,8 +43,8 @@ The shark won't bite you. Don't worry, it's wired!
 題目來源:Internetwache-CTF-2016:Network Forensic(MUST)
 ```
 - 下載分析檔案
-  - []()
-  - []() 
+  - [NET3.pcap](NET3.pcap)
+  - [flag](flag.zip) 
 
 ### NET4_Special Agent User(MUST)  70
 ```
@@ -64,7 +64,22 @@ Maybe try reading up on user-agent strings.
 ```
 - 下載分析檔案
   - []()
+### NET5_
+```
+Question
+We need to gain access to some routers.
+Let's try and see if we can find the password in the captured network data: data.pcap.==> 改成NET5.pcap
 
+HINTS
+It looks like someone logged in with their password earlier.
+Where would log in data be located in a network capture?
+If you think you found the flag, but it doesn't work, consider that the data may be encrypted.
+
+
+題目來源:PicoCTF 2017:|Forensics|Digital Camouflage
+```
+- 下載分析檔案
+  - [NET5.pcap](NET5.pcap)
 ## windows版的strings
 ```
 strings64.exe /?
