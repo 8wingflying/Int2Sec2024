@@ -10,7 +10,7 @@ Windows:strings
 題目來源: CSAW Quals CTF 2013: Networking 1
 ```
 - 下載分析檔案
-  - [NET1]()
+  - [NET1](NET１.pcap)
 - 使用windows/sysinternals的strings工具分析檔案
   - [sysinternals的strings下載點](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)
 ### NET2  30
