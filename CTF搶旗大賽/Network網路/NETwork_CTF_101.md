@@ -32,7 +32,7 @@ Windows: strings + findstr
 - 下載分析檔案
   - [NET2.pcap](NET2.pcap)
 
-### NET3_Wireshark封包分析  80
+### NET3_`Wire``shark`封包分析  80
 ```
 諧音哽~~
 The shark won't bite you. Don't worry, it's wired!
