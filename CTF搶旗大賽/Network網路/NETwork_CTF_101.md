@@ -7,7 +7,7 @@ Linux: file strings
 Windows:
 ```
 - 下載分析檔案
-  - []()
+  - [NET1]()
 - 使用windows/sysinternals的strings工具分析檔案
   - [sysinternals的strings下載點](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)
 ### NET2  30
@@ -49,3 +49,22 @@ Maybe try reading up on user-agent strings.
 - 下載分析檔案
   - []()
 
+## windows版的strings
+```
+strings64.exe /?
+
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <file or directory>
+-a     Ascii-only search (Unicode and Ascii is default)
+-b     Bytes of file to scan
+-f     File offset at which to start scanning.
+-o     Print offset in file string was located
+-n     Minimum string length (default is 3)
+-s     Recurse subdirectories
+-u     Unicode-only search (Unicode and Ascii is default)
+-nobanner
+       Do not display the startup banner and copyright message.
+```
