@@ -1,10 +1,13 @@
 # Network_CTF_101
 ### NET1  20
 ```
-題目來自CSAW Quals CTF 2013: Networking 1
+封包分析最簡章
 請使用工具解析側錄的封包
+
 Linux: file strings
-Windows:
+Windows:strings
+
+題目來源: CSAW Quals CTF 2013: Networking 1
 ```
 - 下載分析檔案
   - [NET1]()
