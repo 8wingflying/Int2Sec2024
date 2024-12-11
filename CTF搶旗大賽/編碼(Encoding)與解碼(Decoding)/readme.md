@@ -88,6 +88,7 @@ so instead of encrypting some secret message to pass to his friend, he encoded i
 
 Hint: Fady's encoding doens't handly any special character
 ```
+[zero_one.txt](zero_one.txt)
 ### SECCON CTF 2014: Easy Cipher  100
 ```
 多元編碼方案
