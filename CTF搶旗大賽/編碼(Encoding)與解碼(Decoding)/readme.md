@@ -80,7 +80,7 @@ Can you restore the plaintext?
 
 Attachment: misc50.zip
 ```
-[misc50.zip]()
+[misc50.zip](misc50.zip)
 ### alexctf-2017: CR1: Ultracoded  50
 ```
 Fady didn't understand well the difference between encryption and encoding, 
@@ -95,4 +95,4 @@ Hint: Fady's encoding doens't handly any special character
 試著解解看吧!
 ciphertxt.txt
 ```
-[ciphertxt.txt]()
+[ciphertxt.txt](ciphertxt.txt)
