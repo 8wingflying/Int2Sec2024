@@ -1,7 +1,7 @@
 # Network_CTF_101
 ### NET1  20
 ```
-封包分析最簡章
+封包分析最簡章~~
 請使用工具解析側錄的封包
 
 Linux: file strings
