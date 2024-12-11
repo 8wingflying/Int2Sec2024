@@ -77,24 +77,24 @@ http://annion.kingbig.idv.tw/tool/column/web/unicode-ascii-ansi.html
 ```
 
 ```
-```
+
 My friend really can’t remember passwords. 
 So he uses some kind of obfuscation(代碼混淆).
 Can you restore the plaintext?
 
 Attachment: misc50.zip
-```
+
 [misc50.zip](misc50.zip)
 ### alexctf-2017: CR1: Ultracoded  50
 ```
 
 ```
-```
+
 Fady didn't understand well the difference between encryption and encoding, 
 so instead of encrypting some secret message to pass to his friend, he encoded it!
 
 Hint: Fady's encoding doens't handly any special character
-```
+
 [zero_one.txt](zero_one.txt)
 ### SECCON CTF 2014: Easy Cipher  100
 ```
