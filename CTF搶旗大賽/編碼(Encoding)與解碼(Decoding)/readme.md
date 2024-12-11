@@ -3,15 +3,6 @@
 - Encoding102 ==> 使用python程式求解 
 
 # Encoding101
-### Base64  20
-```
-編碼與解碼是資訊領域日常都在使用的技術，如Ascii、Base64、Base32各有其適用處，
-請問你對Base64編碼與解碼的技術了解嗎?
-
-你知道如何解碼下列資料嗎:
-
-QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9
-```
 ### Ascii  20
 ```
 編碼與解碼是資訊領域日常都在使用的技術，
@@ -30,6 +21,16 @@ https://zh.wikipedia.org/wiki/ASCII
 善用網路線上資源
 試著用Google查察 ascii decoder
 ```
+### Base64  20
+```
+編碼與解碼是資訊領域日常都在使用的技術，如Ascii、Base64、Base32各有其適用處，
+請問你對Base64編碼與解碼的技術了解嗎?
+
+你知道如何解碼下列資料嗎:
+
+QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9
+```
+
 ### Base32  20
 ```
 編碼與解碼是資訊領域日常都在使用的技術，Base32是由使用26個字母A-Z和數字0-9的編碼。
@@ -74,6 +75,9 @@ http://annion.kingbig.idv.tw/tool/column/web/unicode-ascii-ansi.html
 # Encoding102
 ### Internetwache CTF 2016: The hidden message  50
 ```
+
+```
+```
 My friend really can’t remember passwords. 
 So he uses some kind of obfuscation(代碼混淆).
 Can you restore the plaintext?
@@ -82,6 +86,9 @@ Attachment: misc50.zip
 ```
 [misc50.zip](misc50.zip)
 ### alexctf-2017: CR1: Ultracoded  50
+```
+
+```
 ```
 Fady didn't understand well the difference between encryption and encoding, 
 so instead of encrypting some secret message to pass to his friend, he encoded it!
