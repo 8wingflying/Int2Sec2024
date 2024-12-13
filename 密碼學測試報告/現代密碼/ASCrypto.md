@@ -16,14 +16,15 @@
 ⇒  $d ≡e^{−1} mod \phi$
 
 - 刪除  p 和 q
-- 產生的
+- 產生的kry pair
   - 公鑰 (Public Key) : ( N,e )
   - 私鑰 (Private Key) : ( N,d )
 
-演算法
-加密：c≡me mod N
+## 加解密
 
-解密：m≡cd mod N
+加密：$c≡m^e mod N$
+
+解密：$m≡c^d mod N$
 
 
 RSA 加密
