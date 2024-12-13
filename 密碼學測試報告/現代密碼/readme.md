@@ -3,7 +3,7 @@
   - [對稱式密碼](SCrypto.md)
   - [非對稱式密碼](ASCrypto.md)
   - [HASH](HASH.md)  
-- 現代密碼實戰: Openssl
+- [現代密碼實戰: Openssl](openssl.md)
 - 現代密碼實戰: python
 - 現代密碼破密分析
 
@@ -75,7 +75,4 @@ sha1sum text2.txt
 0bc2657454886e834c9ad875194f728239122b5f  text2.txt
 ```
 
-## [openssl](openssl.md)
-```
-openssl --help
-```
+
