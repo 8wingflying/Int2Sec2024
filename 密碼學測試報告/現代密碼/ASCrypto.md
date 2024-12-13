@@ -4,19 +4,16 @@
   - DSS (Digital Signature Standard), which incorporates the Digital Signature Algorithm
   - ElGamal
   - Various elliptic curve techniques
-Various password-authenticated key agreement techniques
-Paillier cryptosystem
-RSA encryption algorithm (PKCS#1)
-Cramer–Shoup cryptosystem
-YAK authenticated key agreement protocol
-
-Examples of asymmetric key algorithms not widely adopted include:
-NTRUEncrypt cryptosystem
-McEliece cryptosystem
-
-Examples of notable – yet insecure – asymmetric key algorithms include:
-Merkle–Hellman knapsack cryptosystem
-![image](https://github.com/user-attachments/assets/3a51ed28-951c-491e-988a-a2acb91ace28)
+- Various password-authenticated key agreement techniques
+  - Paillier cryptosystem
+  - RSA encryption algorithm (PKCS#1)
+  - Cramer–Shoup cryptosystem
+  - YAK authenticated key agreement protocol
+- 不常被使用的 asymmetric key algorithms:
+  - NTRUEncrypt cryptosystem
+  - McEliece cryptosystem
+- 著名但以已經不安全(notable – yet insecure) asymmetric key algorithms:
+  - Merkle–Hellman knapsack cryptosystem
 
 # RSA非對稱式密碼
 - RSA加密演算法是一種非對稱加密演算法，在公開金鑰加密和電子商業中被廣泛使用
