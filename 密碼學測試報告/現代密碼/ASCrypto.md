@@ -22,9 +22,13 @@
 
 ## 加解密
 
-加密：$c≡m^e mod N$
+加密：
 
-解密：$m≡c^d mod N$
+$ c≡m^e mod N $
+
+解密：
+
+$ m≡c^d mod N $
 
 
 RSA 加密
