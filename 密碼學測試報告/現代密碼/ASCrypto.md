@@ -29,36 +29,17 @@ $$
 
 ## 加解密
 
-RSA 加密：  $$ c≡ m^{e} mod N $$
+RSA 加密：  m ==為明文，是一串個很大的數字  加密後的 c 為密文
 
-RSA 解密：  $$ m≡ c^{d} mod N $$
+$$ c≡ m^{e} mod N $$
 
+RSA 解密：  d 可以透過模反元素(inverse module) : invmod(e,phi) 計算出來
 
-RSA 加密
-c≡me mod N
-m
- 為明文，是一串個很大的數字，加密後的 c
- 即為密文
+$$ m≡ c^{d} mod N $$
+
 
 加密流程：
 
-隨意選取兩個大質數 p,q
- 算出 N=p∗q
-
-根據歐拉函數 :
-
-phi=(p−1)∗(q−1)
-
-選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d
-⇒ ed ≡1 mod phi
-
-⇒  d ≡e−1 mod phi
-
-消滅 p 和 q
-
-公鑰 (Public Key) 為 ( N,e )
-
-私鑰 (Private Key) 為 ( N,d )
 
 
 RSA 解密
@@ -83,7 +64,7 @@ m≡cd mod N
 
 To prove RSA we must prove: 
 
-$ D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}$
+$$ D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}$$
 
 $\shortintertext{Recall: $ed \equiv 1 \pmod{\phi{n}}$}  $
 
