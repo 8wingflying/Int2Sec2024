@@ -1,3 +1,33 @@
+# HASH
+# 著名的HASH FUNCTION
+- MD4
+  - Rivest(1990) | 雜湊值的長度為128 位元(RFC 1186 ，修改版RFC 1320)
+  - Dobbeertin 發現了MD4 雜湊值的碰撞方法，所以並不安全。
+- MD5
+  - Rivest (1991) |雜湊值的長度為128 位元(RFC l321)
+  - MD5 的強碰撞抵抗性已經被破解
+- SHA-1
+  - NIST (National Institute of Standards and Technology)
+  - 雜湊值的長度為160 位元
+  - 1993 年美國發表 FIPS PUB 180 稱為SHA
+  - 1995 年發表的修改版FIPS PUB 180-1 稱作SHA-1
+  - 2005 年SHA-I 的強碰撞抵抗性被破解
+- SHA-2
+  - NIST (National Institute of Standards and Technology)
+  - SHA-256 、SHA-384 、SHA-512 雜湊值的長度分別是256 位元、384 位元、512 位元。這些單向雜湊函數統稱為SHA-2
+  - 訊息的長度有限制(SHA-256 是不超過264 位元， SHA-384 與SHA-512 是不超過2128 位元)
+  - 這些SHA-2單向雜湊函數與SHA-1 公開為FIPS PUB 180-2(2002年)
+- RIPEMD-160
+  - European Union PIPE 計畫設計出的RIPEMD
+  - RIPEMD-160是RIPEMD修訂版,雜湊值長度為160 位元
+  - Hans Dobbertin 、Antoon Bosselaers 、Bart Preneel(1996)
+  - 還有RIPEMD-128 、RIPEMD-256 、RIPEMD-320 等版本
+  - RIPE MD 的強碰撞抵抗性在2004 年被破解，但是RIPEMD-160 還未被破解
+  - 比特幣使用RIPEMD-160
+- SHA-3	NIST (National Institute of Standards and Technology)
+  - 2007|2012(KECCAK 演算法)
+  - SHA-3 在2015年8月5日由 NIST 通過 FIPS 202 正式發表
+
 ### HASH實戰 ==> [Google Colab](https://www.bing.com/ck/a?!&&p=df35b712f5207f6766574b2326de495a456593721e468c9694e5e581bcd4c1eeJmltdHM9MTczMzk2MTYwMA&ptn=3&ver=2&hsh=4&fclid=344f7df4-2fec-6017-0edf-69fe2e40610b&psq=google+colab&u=a1aHR0cHM6Ly9jb2xhYi5yZXNlYXJjaC5nb29nbGUuY29tLw&ntb=1) 實戰20241211
 - MD5
 - SHA
