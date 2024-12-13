@@ -2,7 +2,7 @@
 - https://en.wikipedia.org/wiki/OpenSSL
 - https://www.openssl.org/
 - [OpenSSL Documentation](https://docs.openssl.org/master/)
-
+- [openssl_commands](openssl_commands.md)
 ## OpenSSL
 - OpenSSL是一個開放原始碼的軟體函式庫套件
 - 應用程式可以使用這個套件來進行安全通訊，避免竊聽，同時確認另一端連線者的身分。
