@@ -2,8 +2,8 @@
 - [An Illustrated Guide to Cryptographic Hashes](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html)
 # 著名的HASH FUNCTION
 - MD4
-  - R. L. Rivest, "The MD4 message digest algorithm", Advances in Cryptology - CRYPTO 90, vol. LNCS 537, pp. 303-311, 1991.
   - Rivest(1990) | 雜湊值的長度為128 位元(RFC 1186 ，修改版RFC 1320)
+    - R. L. Rivest, "The MD4 message digest algorithm", Advances in Cryptology - CRYPTO 90, vol. LNCS 537, pp. 303-311, 1991.
     - R. L. Rivest, The MD4 Message Digest Algorithm, Request for Comments (RFC)1320, Internet Activities         
  Board, Internet Privacy Task Force, April 1992.
   - 不安全!已被破~ Dobbeertin 發現了MD4 雜湊值的碰撞方法，所以並不安全。
