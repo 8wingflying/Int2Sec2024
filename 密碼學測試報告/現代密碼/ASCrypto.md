@@ -1,6 +1,12 @@
 # 非對稱式密碼 [wiki](https://en.wikipedia.org/wiki/Public-key_cryptography)
 - 非對稱式密碼 | asymmetric key algorithms | Public-key cryptography
-  - Diffie–Hellman key exchange protocol
+  - [Diffie–Hellman key exchange protocol](https://zh.wikipedia.org/wiki/%E8%BF%AA%E8%8F%B2-%E8%B5%AB%E7%88%BE%E6%9B%BC%E5%AF%86%E9%91%B0%E4%BA%A4%E6%8F%9B)
+    - D-H密鑰交換是一種安全協議。
+    - 它可以讓雙方在完全沒有對方任何預先資訊的條件下通過不安全通道建立起一個金鑰。
+    - 這個金鑰可以在後續的通訊中作為對稱金鑰來加密通訊內容。
+    - key exchange交換的概念最早由瑞夫·墨克（Ralph C. Merkle）提出
+    - 這個密鑰交換方法，由惠特菲爾德·迪菲（Bailey Whitfield Diffie）和馬丁·赫爾曼（Martin Edward Hellman）在1976年首次發表。
+    - 馬丁·赫爾曼曾主張這個密鑰交換方法，應被稱為迪菲-赫爾曼-墨克密鑰交換（Diffie–Hellman–Merkle key exchange）。 
   - DSS (Digital Signature Standard), which incorporates the Digital Signature Algorithm
   - ElGamal
   - Various elliptic curve techniques
