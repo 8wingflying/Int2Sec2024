@@ -29,13 +29,9 @@ $$
 
 ## 加解密
 
-RSA 加密：
+RSA 加密：  $$ c≡ m^{e} mod N $$
 
-$$ c≡ m^{e} mod N $$
-
-RSA 解密：
-
-$$ m≡ c^{d} mod N $$
+RSA 解密：  $$ m≡ c^{d} mod N $$
 
 
 RSA 加密
