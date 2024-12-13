@@ -7,10 +7,10 @@
 ## key Generation
 - 隨意選取兩個大質數 p,q
 - 計算出 N=p∗q
-- 計算歐拉函數 :$ /phi$=(p−1)∗(q−1)
+- 計算歐拉函數 :$ \phi$=(p−1)∗(q−1)
 - 選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d ⇒ ed ≡1 mod phi
 
-⇒  $d ≡e^{−1} mod /phi$
+⇒  $d ≡e^{−1} mod \phi$
 
 - 刪除  p 和 q
 - 產生的
