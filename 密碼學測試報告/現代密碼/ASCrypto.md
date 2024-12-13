@@ -1,0 +1,99 @@
+# 非對稱式密碼
+
+# RSA非對稱式密碼
+- RSA加密演算法是一種非對稱加密演算法，在公開金鑰加密和電子商業中被廣泛使用
+- 1977 年由 Ron Rivest, Adi Shamir 和 Leonard Adleman一起提出的，故取名為 RSA 。
+
+## key Generation
+- 隨意選取兩個大質數 p,q
+- 計算出 N=p∗q
+- 計算歐拉函數 :phi=(p−1)∗(q−1)
+- 選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d ⇒ ed ≡1 mod phi
+
+⇒  $d ≡e^−1 mod phi$
+
+- 刪除  p 和 q
+- 產生的
+  - 公鑰 (Public Key) : ( N,e )
+  - 私鑰 (Private Key) : ( N,d )
+
+演算法
+加密：c≡me mod N
+
+解密：m≡cd mod N
+
+
+RSA 加密
+c≡me mod N
+m
+ 為明文，是一串個很大的數字，加密後的 c
+ 即為密文
+
+加密流程：
+
+隨意選取兩個大質數 p,q
+ 算出 N=p∗q
+
+根據歐拉函數 :
+
+phi=(p−1)∗(q−1)
+
+選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d
+⇒ ed ≡1 mod phi
+
+⇒  d ≡e−1 mod phi
+
+消滅 p 和 q
+
+公鑰 (Public Key) 為 ( N,e )
+
+私鑰 (Private Key) 為 ( N,d )
+
+
+RSA 解密
+m≡cd mod N
+這個 d
+ 可以透過模反元素(inverse module) : invmod(e,phi) 計算出來
+
+其實 d
+ 在做的事情也就是將 (e∗d) mod phi
+ 要等於 1
+
+就是當： mx mod N
+ 時
+
+只要 x
+ 每遇到 N
+ 的尤拉函數 Euler function ϕ
+ 的值： ϕ(N)
+ 就會被歸 0
+ !!!
+
+
+舉個例子：
+
+→
+ 假設 ϕ(N)
+ 為 60
+，那麼 m120
+ 會等於 m0=1
+
+→
+ 假設 ϕ(N)
+ 為 60
+，那麼 m61
+ 會等於 m1=m
+
+
+也就是： C=mx mod ϕ(N)mod N
+
+C=med mod ϕ(N)mod N
+
+所以只要找到一個數字 d
+ 乘上 e
+ : 使得 ed mod ϕ(N)=1
+
+那麼 cd=med=m1=m
+ 就能成功解密了。
+# RSA非對稱式密碼: C 語言實作
+# RSA非對稱式密碼: Python實作
