@@ -9,7 +9,7 @@
 - 計算出 N=p∗q
 - 計算歐拉函數 :
   
-   $ \phi =(p−1)∗(q−1)$
+$$ \phi =(p−1)∗(q−1)$$
 
 - 選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d ⇒ ed ≡1 mod phi
 
@@ -19,6 +19,11 @@
 - 產生的kry pair
   - 公鑰 (Public Key) : ( N,e )
   - 私鑰 (Private Key) : ( N,d )
+
+$$
+A^{\phi y} \equiv (A^y)^{\phi} 
+\equiv a^{\phi} \equiv 1 \mod N
+$$
 
 ## 加解密
 
