@@ -29,13 +29,13 @@ $$
 
 ## 加解密
 
-加密：
+RSA 加密：
 
-$$ c≡ \m^{e} mod N $$
+$$ c≡ m^{e} mod N $$
 
-解密：
+RSA 解密：
 
-$$ m≡ \c^{d} mod N $$
+$$ m≡ c^{d} mod N $$
 
 
 RSA 加密
