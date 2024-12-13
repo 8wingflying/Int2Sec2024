@@ -13,7 +13,7 @@
 
 - 選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d
 
-⇒ $$ ed ≡1 mod \phi$$
+⇒  $ ed ≡1 mod \phi$
 
 ⇒  $d ≡e^{−1} mod \phi$
 
