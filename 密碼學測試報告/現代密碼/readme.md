@@ -1,7 +1,7 @@
 # 現代密碼
 - 現代密碼
-  - 對稱式密碼
-  - 非對稱式密碼
+  - [對稱式密碼](SCrypto.md)
+  - [非對稱式密碼](ASCrypto.md)
   - HASH  
 - 現代密碼實戰: Openssl
 - 現代密碼實戰: python
