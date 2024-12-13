@@ -5,7 +5,7 @@
   - [HASH](HASH.md)  
 - [現代密碼實戰: Openssl](openssl.md)
 - 現代密碼實戰: python
-- 現代密碼破密分析
+- [現代密碼破密分析](CryptoAnalysis.md)
 
 ### HASH實戰 ==> [Google Colab](https://www.bing.com/ck/a?!&&p=df35b712f5207f6766574b2326de495a456593721e468c9694e5e581bcd4c1eeJmltdHM9MTczMzk2MTYwMA&ptn=3&ver=2&hsh=4&fclid=344f7df4-2fec-6017-0edf-69fe2e40610b&psq=google+colab&u=a1aHR0cHM6Ly9jb2xhYi5yZXNlYXJjaC5nb29nbGUuY29tLw&ntb=1) 實戰20241211
 - MD5
