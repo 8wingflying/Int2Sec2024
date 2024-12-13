@@ -12,7 +12,7 @@
 - MD5
   - Rivest (1991) |雜湊值的長度為128 位元(RFC l321)
   - 不安全!已被破~ MD5 的強碰撞抵抗性已經被破解
-    - Wang, Xiaoyun; Feng, Dengguo; Lai, Xuejia; Yu, Hongbo. Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD
+    - [Wang, Xiaoyun; Feng, Dengguo; Lai, Xuejia; Yu, Hongbo. Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD](https://eprint.iacr.org/2004/199.pdf)
     - [MD5 Collision Demo](https://www.mscs.dal.ca/~selinger/md5collision/)
 - SHA-1
   - NIST (National Institute of Standards and Technology)
