@@ -1,5 +1,6 @@
 # HASH
 - [An Illustrated Guide to Cryptographic Hashes](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html)
+- [MD5 Hash Generator](https://codebeautify.org/md5-hash-generator)
 # 著名的HASH FUNCTION
 - MD4
   - Rivest(1990) | 雜湊值的長度為128 位元(RFC 1186 ，修改版RFC 1320)
@@ -11,7 +12,8 @@
 - MD5
   - Rivest (1991) |雜湊值的長度為128 位元(RFC l321)
   - 不安全!已被破~ MD5 的強碰撞抵抗性已經被破解
-  - [MD5 Collision Demo](https://www.mscs.dal.ca/~selinger/md5collision/)
+    - Wang, Xiaoyun; Feng, Dengguo; Lai, Xuejia; Yu, Hongbo. Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD
+    - [MD5 Collision Demo](https://www.mscs.dal.ca/~selinger/md5collision/)
 - SHA-1
   - NIST (National Institute of Standards and Technology)
   - 雜湊值的長度為160 位元
@@ -20,6 +22,7 @@
   - 不安全!已被破~2005 年SHA-I 的強碰撞抵抗性被破解
     - 2005年，密碼分析人員發現了對SHA-1的有效攻擊方法，這表明該算法可能不夠安全，不能繼續使用
     - 2017年2月23日，CWI Amsterdam與Google宣布了一個成功的SHA-1碰撞攻擊，發布了兩份內容不同但SHA-1散列值相同的PDF文件作為概念證明。
+    - https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html
     - 2020年，針對SHA-1的選擇前綴衝突攻擊已經實際可行。建議盡可能用SHA-2或SHA-3取代SHA-1。
 - SHA-2
   - NIST (National Institute of Standards and Technology)
