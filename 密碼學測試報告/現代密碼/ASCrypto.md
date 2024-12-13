@@ -4,10 +4,10 @@
 - RSA加密演算法是一種非對稱加密演算法，在公開金鑰加密和電子商業中被廣泛使用
 - 1977 年由 Ron Rivest, Adi Shamir 和 Leonard Adleman一起提出的，故取名為 RSA 。
 
-## key Generation
+## key Generation [Math Formula](https://www.luogu.com.cn/article/1gxob6zc)
 - 隨意選取兩個大質數 p,q
 - 計算出 N=p∗q
-- 計算歐拉函數 :$ \phi=(p−1)∗(q−1)$
+- 計算歐拉函數 :$ \phi =(p−1)∗(q−1)$
 - 選擇一個 e ，必須與 phi 互質，並求出模反元素(Modular multiplicative inverse) 為 d ⇒ ed ≡1 mod phi
 
 ⇒  $d ≡e^{−1} mod \phi$
