@@ -78,7 +78,7 @@ m≡cd mod N
  !!!
 
 
-$\shortintertext{To prove RSA we must prove:} D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}$
+$To prove RSA we must prove: D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}$
 
 $\shortintertext{Recall: $ed \equiv 1 \pmod{\phi{n}}$}  $
 
