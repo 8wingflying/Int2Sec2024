@@ -78,8 +78,10 @@ m≡cd mod N
  !!!
 
 
-$\shortintertext{To prove RSA we must prove:} D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}\\
-\shortintertext{Recall: $ed \equiv 1 \pmod{\phi{n}}$}  \\
+$\shortintertext{To prove RSA we must prove:} D(c) = D(E(m)) = (m^e)^d = m^{ed} \equiv m \pmod{n}$
+
+$\shortintertext{Recall: $ed \equiv 1 \pmod{\phi{n}}$}  $
+
 \exists k \ni \to de-1 = (p-1)*(q-1)*k \\
 \to ec = 1+k(p-1)(q-1)\\
 \shortintertext{Case 1: $m$ divides $p$ and $p$ divides $m$, then $m = 0 \pmod{p} \land m^{ed} \equiv 0 \pmod{p}$} \\
