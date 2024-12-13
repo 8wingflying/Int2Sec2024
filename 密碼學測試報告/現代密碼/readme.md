@@ -73,3 +73,8 @@ sha1sum text2.txt
 3330b4373640f9e4604991e73c7e86bfd8da2dc3  text1.txt
 0bc2657454886e834c9ad875194f728239122b5f  text2.txt
 ```
+
+## [openssl](openssl.md)
+```
+openssl --help
+```
