@@ -90,6 +90,15 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 ```
 
 ## Medium Command Injection Source
+- 中級試煉
+- 程式碼有使用者輸入驗證(user input validation)
+- // Set blacklist ==> 設定黑名單
+  - 只要使用者輸入有'&&'(Windows指令串接)及';' (Linux指令串接)
+  - 就把它們改成'' (空無一物) ==> 所以後面的指令就會失效
+  - 攻擊技法1:
+    - www.ksu.edu.tw ; cat /etc/shadow ==> 失效(無效攻擊)
+  - 攻擊技法2: 
+    - www.ksu.edu.tw | cat /etc/shadow ==> 攻擊成功
 ```php
 <?php
 
@@ -122,7 +131,9 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 
 ?>
 ```
-### Low Command Injection Source
+### `Low`Command Injection Source
+- 完全沒有任何防護
+- 使用者輸入完全沒有檢查 ==> NO input validation
 ```php
 <?php
 
