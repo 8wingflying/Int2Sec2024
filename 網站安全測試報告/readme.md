@@ -6,7 +6,7 @@
   - OWASP TOP 10
     - [OWASP Top 10 Web Application Security Risks(2021)](https://owasp.org/Top10/) ==> 2025年版即將出爐
     - [OWASP Top 10 API Security Risks 2023](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
-- 網站安全測試  [OWASP Web Security Testing Guide](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
+- 網站安全測試  [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 - 網站安全驗證  [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
 - DVWA實戰
   - DVWA
