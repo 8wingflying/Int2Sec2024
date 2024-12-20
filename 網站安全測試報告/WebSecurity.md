@@ -8,10 +8,15 @@
    - Vue.js
    - React.js
    - Bootstrap.js
-   -  
+   - ... 
  - server-side programming
+   - PHP
+   - ASP.NET 
  
 - Web Attack vector
- - hacking Web Protocals
- - Web server Vuln.
- - Web Appilication risk 
+  - hacking Web Protocals : HTTP HTTPS
+  - Web server Vuln.
+    - IIS
+    - Apache
+    - Nginx 
+  - Web Appilication risk 
